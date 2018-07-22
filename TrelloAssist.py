@@ -5,10 +5,12 @@ import config
 from datetime import timedelta
 from datetime import datetime
 
+
 # Default Vars
 start_day = datetime.now()
 end_day = datetime.now() + timedelta(days=5)
 base_url = "https://api.trello.com/1/"
+
 
 # Default Dictionaries
 query_params = {
@@ -34,6 +36,7 @@ default_lists = {
     "Carry-Over" : "512",
     "Won't Do" : "4096"
 }
+
 
 ##########
 
@@ -128,8 +131,7 @@ def run_tasks(board_name):
     
 
 def main():
-    #board_name =  "Week of " + start_day.strftime("%b %d") + "-" + end_day.strftime("%b %d")
-    board_name = "FINAL COUNT DOWN " + datetime.now().strftime("%B %d")
+    board_name =  "Week of " + start_day.strftime("%b %d") + "-" + end_day.strftime("%b %d")
     run_tasks(board_name)
 
 
