@@ -131,7 +131,7 @@ def run_tasks(board_name):
     
 
 def main():
-    board_name =  "Week of " + start_day.strftime("%b %d") + "-" + end_day.strftime("%b %d")
+    board_name =  "Week of " + start_day.strftime("%b %d") + " - " + end_day.strftime("%b %d")
     run_tasks(board_name)
 
 
