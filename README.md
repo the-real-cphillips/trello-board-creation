@@ -6,4 +6,4 @@ You need to have a `config.py`
 - `api_key` - this should contain the API Key provided via Trello
 - `api_token` - this shoudl contain the API Token provided via Trello
 
-
+(Check https://trello.com/app-key)
